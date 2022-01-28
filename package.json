@@ -31,6 +31,7 @@
         "@angular/platform-browser": "13.0.0",
         "@angular/platform-browser-dynamic": "13.0.0",
         "@angular/router": "13.0.0",
+        "@randomgeekdom/rollbard": "^1.1.2",
         "core-js": "3.8.0",
         "gatekeeper-client-sdk": "0.4.2",
         "luxon": "2.1.1",
