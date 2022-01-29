@@ -1,10 +1,10 @@
 {
-    "name": "adminlte",
-    "version": "0.1.0",
+    "name": "terra-machina",
+    "version": "2.0.0",
     "private": true,
     "scripts": {
         "start": "ng serve",
-        "build": "ng build --configuration production",
+        "build": "npm version patch && ng build --configuration production",
         "test": "ng test",
         "lint": "ng lint",
         "e2e": "ng e2e",
