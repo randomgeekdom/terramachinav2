@@ -10,6 +10,7 @@ import {HeaderComponent} from '@modules/main/header/header.component';
 import {FooterComponent} from '@modules/main/footer/footer.component';
 import {MenuSidebarComponent} from '@modules/main/menu-sidebar/menu-sidebar.component';
 import {BlankComponent} from '@pages/blank/blank.component';
+import {HomeComponent} from '@pages/home/home.component';
 import {ReactiveFormsModule} from '@angular/forms';
 import {ProfileComponent} from '@pages/profile/profile.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
@@ -59,7 +60,8 @@ registerLocaleData(localeEn, 'en-EN');
         SubMenuComponent,
         MenuItemComponent,
         DropdownComponent,
-        DropdownMenuComponent
+        DropdownMenuComponent,
+        HomeComponent
     ],
     imports: [
         BrowserModule,
