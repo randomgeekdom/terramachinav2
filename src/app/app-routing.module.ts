@@ -43,26 +43,7 @@ const routes: Routes = [
             }
         ]
     },
-    {
-        path: 'login',
-        component: LoginComponent,
-        canActivate: [NonAuthGuard]
-    },
-    {
-        path: 'register',
-        component: RegisterComponent,
-        canActivate: [NonAuthGuard]
-    },
-    {
-        path: 'forgot-password',
-        component: ForgotPasswordComponent,
-        canActivate: [NonAuthGuard]
-    },
-    {
-        path: 'recover-password',
-        component: RecoverPasswordComponent,
-        canActivate: [NonAuthGuard]
-    },
+
     {
         path: 'privacy-policy',
         component: PrivacyPolicyComponent,
