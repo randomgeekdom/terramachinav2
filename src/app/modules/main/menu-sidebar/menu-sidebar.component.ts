@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import { Router } from '@angular/router';
 import {AppService} from '@services/app.service';
 
 @Component({
@@ -10,7 +11,7 @@ export class MenuSidebarComponent implements OnInit {
     public user;
     public menu = MENU;
 
-    constructor(public appService: AppService) {}
+    constructor(public appService: AppService, private router:Router) {}
 
     ngOnInit() {
         this.user = this.appService.user;
@@ -19,8 +20,9 @@ export class MenuSidebarComponent implements OnInit {
 
 export const MENU = [
     {
-        name: 'Dashboard',
-        path: ['/']
+        name: 'Home',
+        path: ['/'],
+        icon: "home"
     },
     {
         name: 'Blank',
