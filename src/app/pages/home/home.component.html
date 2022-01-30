@@ -1,48 +1,68 @@
 <!-- Content Header (Page header) -->
 <section class="content-header">
-  <div class="container-fluid">
-      <div class="row mb-2">
-          <div class="col-sm-6">
-              <h1>Welcome to Terra Machina</h1>
-          </div>
-
-      </div>
-  </div>
-  <!-- /.container-fluid -->
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>Welcome to Terra Machina</h1>
+            </div>
+        </div>
+    </div>
+    <!-- /.container-fluid -->
 </section>
 
 <!-- Main content -->
 <section class="content">
-  <!-- Default box -->
-  <div class="container-fluid">
-
-    <div class="row">
-      <div class="col-md-6">
-        <div class="card">
-            <div class="card-header">
-                <h3 class="card-title">About</h3>
+    <!-- Default box -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">About</h3>
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <i
+                                >Over the course of millenia, what began as a
+                                world of fantasy and myth advances beyond its
+                                ages of primitivity, agriculture, conquest,
+                                exploration, and industry. It is now an age of
+                                technology. Life transpires on the spectrum of
+                                science and sorcery. It is a world where the
+                                gods of the machine coexist with the gods of the
+                                natural world.</i
+                            >
+                        </div>
+                    </div>
+                    <!-- /.card-body -->
+                    <div class="card-body">
+                        <div>
+                            Terra Machina is a tabletop RPG based loosely on
+                            Dungeon World by Sage LaTorra and Adam Koebel. It
+                            imagines a Tolkienesque world where time has passed
+                            to the point where technology is just as powerful as
+                            magic. Taking inspiration from Japanese roleplaying
+                            video games of the 32-bit era, it is a unique
+                            experience that hopes to combine the best elements
+                            of science fiction, fantasy, and action.
+                        </div>
+                    </div>
+                    <!-- /.card-footer-->
+                </div>
             </div>
-            <div class="card-body">
-              <div><i>Over the course of millenia, what began as a world of fantasy and myth advances beyond its ages of primitivity, agriculture, conquest, exploration, and industry. It is now an age of technology. Life transpires on the spectrum of science and sorcery. It is a world where the gods of the machine coexist with the gods of the natural world.</i></div>
-
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Updates</h3>
+                    </div>
+                    <div class="card-body" *ngFor="let i of updates">
+                        <div>{{ i }}</div>
+                    </div>
+                </div>
             </div>
-            <!-- /.card-body -->
-            <div class="card-body"><div>Terra Machina is a tabletop RPG based loosely on Dungeon World by Sage LaTorra and Adam Koebel. It imagines a Tolkienesque world where time has passed to the point where technology is just as powerful as magic. Taking inspiration from Japanese roleplaying video games of the 32-bit era, it is a unique experience that hopes to combine the best elements of science fiction, fantasy, and action.</div></div>
-            <!-- /.card-footer-->
-        </div></div>
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-header">
-              <h3 class="card-title">Updates</h3>
-          </div>
-          <div class="card-body" *ngFor="let i of updates">
-            <div>{{i}}</div>
-          </div>
-      </div></div>
+        </div>
+    </div>
 
-  </div>
-  </div>
-
-  <!-- /.card -->
+    <!-- /.card -->
 </section>
 <!-- /.content -->
