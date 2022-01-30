@@ -1,13 +1,12 @@
 import {NgModule} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
 import {MainComponent} from '@modules/main/main.component';
-import {BlankComponent} from '@pages/blank/blank.component';
-import {ProfileComponent} from '@pages/profile/profile.component';
-import {NonAuthGuard} from '@guards/non-auth.guard';
-import {PrivacyPolicyComponent} from '@modules/privacy-policy/privacy-policy.component';
-import {SubMenuComponent} from '@pages/main-menu/sub-menu/sub-menu.component';
 import { HomeComponent } from '@pages/home/home.component';
 import { ResourcesComponent } from '@pages/resources/resources.component';
+import { ItemsComponent } from '@pages/items/items.component';
+import { BestiaryComponent } from '@pages/bestiary/bestiary.component';
+import { SampleCustomMovesComponent } from '@pages/sample-custom-moves/sample-custom-moves.component';
+import { NpcGeneratorComponent } from '@pages/npc-generator/npc-generator.component';
 
 const routes: Routes = [
     {
@@ -17,28 +16,28 @@ const routes: Routes = [
         // canActivateChild: [AuthGuard],
         children: [
             {
-                path: 'profile',
-                component: ProfileComponent
-            },
-            {
-                path: 'blank',
-                component: BlankComponent
-            },
-            {
-                path: 'sub-menu-1',
-                component: SubMenuComponent
-            },
-            {
-                path: 'sub-menu-2',
-                component: BlankComponent
-            },
-            {
                 path: '',
                 component: HomeComponent
             },
             {
                 path: 'resources',
                 component: ResourcesComponent
+            },
+            {
+                path: 'items',
+                component: ItemsComponent
+            },
+            {
+                path: 'bestiary',
+                component: BestiaryComponent
+            },
+            {
+                path: 'sample-custom-moves',
+                component: SampleCustomMovesComponent
+            },
+            {
+                path: 'npc-generator',
+                component: NpcGeneratorComponent
             }
         ]
     },

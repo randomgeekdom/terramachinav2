@@ -34,6 +34,10 @@ import {MenuItemComponent} from './components/menu-item/menu-item.component';
 import {DropdownComponent} from './components/dropdown/dropdown.component';
 import {DropdownMenuComponent} from './components/dropdown/dropdown-menu/dropdown-menu.component';
 import { ResourcesComponent } from './pages/resources/resources.component';
+import { ItemsComponent } from './pages/items/items.component';
+import { BestiaryComponent } from './pages/bestiary/bestiary.component';
+import { SampleCustomMovesComponent } from './pages/sample-custom-moves/sample-custom-moves.component';
+import { NpcGeneratorComponent } from './pages/npc-generator/npc-generator.component';
 
 registerLocaleData(localeEn, 'en-EN');
 
@@ -63,7 +67,11 @@ registerLocaleData(localeEn, 'en-EN');
         DropdownComponent,
         DropdownMenuComponent,
         HomeComponent,
-        ResourcesComponent
+        ResourcesComponent,
+        ItemsComponent,
+        BestiaryComponent,
+        SampleCustomMovesComponent,
+        NpcGeneratorComponent
     ],
     imports: [
         BrowserModule,

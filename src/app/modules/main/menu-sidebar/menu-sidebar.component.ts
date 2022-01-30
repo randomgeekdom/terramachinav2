@@ -30,19 +30,24 @@ export const MENU = [
       path: ['/resources'],
       icon: "book"
   },
-    {
-        name: 'Tools',
-        icon: 'wrench',
-        children: [
-            {
-                name: 'Sub Menu',
-                path: ['/sub-menu-1']
-            },
-
-            {
-                name: 'Blank',
-                path: ['/sub-menu-2']
-            }
-        ]
-    }
+  {
+      name: 'Items',
+      path: ['/items'],
+      icon: "shopping-basket"
+  },
+  {
+      name: 'Bestiary',
+      path: ['/bestiary'],
+      icon: "paw"
+  },
+  {
+      name: 'Sample Custom Moves',
+      path: ['/sample-custom-moves'],
+      icon: "clipboard-list"
+  },
+  {
+      name: 'NPC Generator',
+      path: ['/npc-generator'],
+      icon: "user-friends"
+  }
 ];
