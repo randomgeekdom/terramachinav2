@@ -1,0 +1,1446 @@
+{
+    "Items": [
+        {
+            "Name": "Antidote",
+            "Description": "Immediately heals Poison",
+            "Cost": "6"
+        },
+        {
+            "Name": "Aqua Grenade",
+            "Description": "A grenade that does 1d6 Water damage",
+            "Cost": "6"
+        },
+        {
+            "Name": "Bandage",
+            "Description": "Immediately heals Bleed",
+            "Cost": "6"
+        },
+        {
+            "Name": "Basic Airship",
+            "Description": "An airship with a capacity of 13.  Not very good for combat.",
+            "Cost": "700"
+        },
+        {
+            "Name": "Basic Armor",
+            "Description": "Adds +2 Armor",
+            "Cost": "10"
+        },
+        {
+            "Name": "Basic Weapon",
+            "Description": "Basic type of any weapon (no modifiers)",
+            "Cost": "5"
+        },
+        {
+            "Name": "Boat",
+            "Description": "A water craft that carries 3 people and can cross still water",
+            "Cost": "180"
+        },
+        {
+            "Name": "Brain Boost",
+            "Description": "+2 to next Deduction Roll",
+            "Cost": "15"
+        },
+        {
+            "Name": "Brawl Balm",
+            "Description": "+2 to next Melee Roll",
+            "Cost": "15"
+        },
+        {
+            "Name": "Calming Agent",
+            "Description": "Immediately heals Scared",
+            "Cost": "6"
+        },
+        {
+            "Name": "Concentration",
+            "Description": "+2 to next Shoot Roll",
+            "Cost": "15"
+        },
+        {
+            "Name": "Concoction",
+            "Description": "Heals 10 SP",
+            "Cost": "10"
+        },
+        {
+            "Name": "Concoction+",
+            "Description": "Heals all SP",
+            "Cost": "25"
+        },
+        {
+            "Name": "Confidence Booster",
+            "Description": "+2 to next Diplomacy Roll",
+            "Cost": "15"
+        },
+        {
+            "Name": "Dangerous Mushroom",
+            "Description": "Requires a resilience roll:\r\n-\tSuccess: Heal 1d6 HP\r\n-\tMinor Success: Heal 1d6 HP but gain Poison\r\n-\tFail: Gain Poison",
+            "Cost": "5"
+        },
+        {
+            "Name": "Elbow Grease",
+            "Description": "+2 to next Tinker Roll",
+            "Cost": "15"
+        },
+        {
+            "Name": "Index Card",
+            "Description": "+2 to next Knowledge Roll",
+            "Cost": "15"
+        },
+        {
+            "Name": "Energy Boost",
+            "Description": "+2 to next Energy Roll",
+            "Cost": "15"
+        },
+        {
+            "Name": "Enhancer",
+            "Description": "+2 to next Sense Roll",
+            "Cost": "15"
+        },
+        {
+            "Name": "Evil Grenade",
+            "Description": "A grenade that does 1d6 Dark damage",
+            "Cost": "6"
+        },
+        {
+            "Name": "Eye Drop",
+            "Description": "Immediately heals Blind",
+            "Cost": "6"
+        },
+        {
+            "Name": "Flame Grenade",
+            "Description": "A grenade that does 1d6 Fire damage",
+            "Cost": "6"
+        },
+        {
+            "Name": "Flex",
+            "Description": "+2 to next Movement Roll",
+            "Cost": "15"
+        },
+        {
+            "Name": "Frost Grenade",
+            "Description": "A grenade that does 1d6 Ice damage",
+            "Cost": "6"
+        },
+        {
+            "Name": "Helicopter",
+            "Description": "A flying craft that carries 4 people and can cross up to 8 areas before needing to land",
+            "Cost": "270"
+        },
+        {
+            "Name": "Jerky",
+            "Description": "Restore 3 SP",
+            "Cost": "3"
+        },
+        {
+            "Name": "Jetpack",
+            "Description": "Allows an individual to fly any distance outside of battle",
+            "Cost": "210"
+        },
+        {
+            "Name": "Lazarus Tonic",
+            "Description": "Revives a fainted comrade in battle",
+            "Cost": "100"
+        },
+        {
+            "Name": "Light Airship",
+            "Description": "A flying craft that carries 7 people and can cross long distances",
+            "Cost": "330"
+        },
+        {
+            "Name": "Light Ship",
+            "Description": "A water craft that carries 11 people and can cross oceans",
+            "Cost": "300"
+        },
+        {
+            "Name": "Lockpick",
+            "Description": "Picking a lock does not require a Tinker roll",
+            "Cost": "10"
+        },
+        {
+            "Name": "Magnifier",
+            "Description": "+2 to next Search Roll",
+            "Cost": "15"
+        },
+        {
+            "Name": "Medication",
+            "Description": "Immediately heals Mania",
+            "Cost": "6"
+        },
+        {
+            "Name": "Medicine",
+            "Description": "Heals 2d10 HP, but can only be used outside of battle",
+            "Cost": "7"
+        },
+        {
+            "Name": "Ointment",
+            "Description": "Immediately heals Burn",
+            "Cost": "6"
+        },
+        {
+            "Name": "Potion",
+            "Description": "Heals 10 HP",
+            "Cost": "10"
+        },
+        {
+            "Name": "Potion+",
+            "Description": "Heals All HP",
+            "Cost": "25"
+        },
+        {
+            "Name": "Rock Grenade",
+            "Description": "A grenade that does 1d6 Earth damage",
+            "Cost": "6"
+        },
+        {
+            "Name": "Saintly Grenade",
+            "Description": "A grenade that does 1d6 Holy damage",
+            "Cost": "6"
+        },
+        {
+            "Name": "Scale Armor",
+            "Description": "Adds +2 Armor",
+            "Cost": "10"
+        },
+        {
+            "Name": "Shock Grenade",
+            "Description": "A grenade that does 1d6 Lightning damage",
+            "Cost": "6"
+        },
+        {
+            "Name": "Steroid",
+            "Description": "+2 to next Brawn Roll",
+            "Cost": "15"
+        },
+        {
+            "Name": "Stimulant",
+            "Description": "Immediately heals Paralysis",
+            "Cost": "6"
+        },
+        {
+            "Name": "Tincture",
+            "Description": "Heals 1d10 HP and 1d10 SP",
+            "Cost": "30"
+        },
+        {
+            "Name": "Tincture+",
+            "Description": "Heals all HP and SP",
+            "Cost": "70"
+        },
+        {
+            "Name": "Vitamin",
+            "Description": "+2 to next Resilience Roll",
+            "Cost": "15"
+        },
+        {
+            "Name": "Welder's Gloves",
+            "Description": "Gloves that add +2 to Tinker",
+            "Cost": "22"
+        },
+        {
+            "Name": "Wind Grenade",
+            "Description": "A grenade that does 1d6 Air damage",
+            "Cost": "6"
+        },
+        {
+            "Name": "Yacht",
+            "Description": "A water craft that carries 5 people and can cross oceans",
+            "Cost": "260"
+        },
+        {
+            "Name": "Skinguard",
+            "Description": "Prevents Bleed twice before wearing off.",
+            "Cost": "3"
+        },
+        {
+            "Name": "Eyeguard",
+            "Description": "Prevents Blind twice before wearing off.",
+            "Cost": "3"
+        },
+        {
+            "Name": "Flameguard",
+            "Description": "Prevents Burn twice before wearing off.",
+            "Cost": "3"
+        },
+        {
+            "Name": "Mindguard",
+            "Description": "Prevents Mania twice before wearing off.",
+            "Cost": "3"
+        },
+        {
+            "Name": "Boneguard",
+            "Description": "Prevents Paralysis twice before wearing off.",
+            "Cost": "3"
+        },
+        {
+            "Name": "Vaccine",
+            "Description": "Prevents Poison twice before wearing off.",
+            "Cost": "3"
+        },
+        {
+            "Name": "Willguard",
+            "Description": "Prevents Scared twice before wearing off.",
+            "Cost": "3"
+        }
+    ],
+    "Bestiary": [
+        {
+            "Name": "Aquabug",
+            "Description": "An insect that lives underwater",
+            "HP": "15",
+            "Armor": "3",
+            "Immunity": "Air, Water",
+            "Locations": "Underwater",
+            "Weakness": "Dark",
+            "Type": "Insect",
+            "Attacks": "Sting: 1d8+1 damage.  Causes Poison."
+        },
+        {
+            "Name": "Arctic Sniper",
+            "Description": "A white-coated person with a long-range rifle",
+            "HP": "4",
+            "Armor": "0",
+            "Immunity": "None",
+            "Locations": "Tundra",
+            "Weakness": "None",
+            "Type": "Human",
+            "Attacks": "Shot: 1d10-1 Ice damage."
+        },
+        {
+            "Name": "Armored Jellyfish",
+            "Description": "A jellyfish with hard armor",
+            "HP": "14",
+            "Armor": "7",
+            "Immunity": "Holy",
+            "Locations": "Underwater",
+            "Weakness": "Air",
+            "Type": "Animal",
+            "Attacks": "Sting: 1d4 damage.  Causes Burn."
+        },
+        {
+            "Name": "Armored Rhino",
+            "Description": "A rhinoceros with a thick metal hide",
+            "HP": "10",
+            "Armor": "5",
+            "Immunity": "None",
+            "Locations": "Plains",
+            "Weakness": "Fire, Lightning",
+            "Type": "Animal",
+            "Attacks": "Charge: 1d12 damage\r\n\r\nGround Stomp: 1d8 damage to 2 enemies"
+        },
+        {
+            "Name": "Baterina",
+            "Description": "A giant bat with legs that wears a tutu",
+            "HP": "6",
+            "Armor": "0",
+            "Immunity": "None",
+            "Locations": "Cave",
+            "Weakness": "Holy",
+            "Type": "Monster",
+            "Attacks": "Bite: 1d12 damage.  Causes Mania"
+        },
+        {
+            "Name": "Blue Dragon",
+            "Description": "A wingless dragon that can breathe underwater",
+            "HP": "20",
+            "Armor": "3",
+            "Immunity": "Water, Ice",
+            "Locations": "Underwater, Shore",
+            "Weakness": "Air",
+            "Type": "Reptilian",
+            "Attacks": "Swipe: 1d6\r\n\r\nWater Blast: 1d10-1 Water damage."
+        },
+        {
+            "Name": "Bog Knight",
+            "Description": "An armored figure wielding an axe that hangs out in swamps",
+            "HP": "10",
+            "Armor": "2",
+            "Immunity": "Dark",
+            "Locations": "Swamp",
+            "Weakness": "Earth",
+            "Type": "Human",
+            "Attacks": "Axe Attack: 1d8 damage"
+        },
+        {
+            "Name": "Boogeyman",
+            "Description": "A scary unded creature.",
+            "HP": "4",
+            "Armor": "0",
+            "Immunity": "Air",
+            "Locations": "City",
+            "Weakness": "Fire",
+            "Type": "Undead",
+            "Attacks": "Scare Strike: 1d6 damage.  Causes Scared."
+        },
+        {
+            "Name": "Brown Dragon",
+            "Description": "Dragons the size of human beings with thick brown scales",
+            "HP": "10",
+            "Armor": "2",
+            "Immunity": "Earth",
+            "Locations": "Sky, Cave, Mountain",
+            "Weakness": "Air",
+            "Type": "Animal, Reptilian",
+            "Attacks": "Scratch: 1d8+3 damage\r\n\r\nBite: 1d8 damage.  Will latch onto a character causing the following: -1 to Movement Rolls and automatic 1d4 damage until free\r\n\r\nDirt Tail Whip: 1d6 ranged Earth damage plus causes Blind."
+        },
+        {
+            "Name": "Candlestick",
+            "Description": "A sentient candlestick",
+            "HP": "5",
+            "Armor": "2",
+            "Immunity": "Fire",
+            "Locations": "Desert, City",
+            "Weakness": "Air",
+            "Type": "Monster",
+            "Attacks": "Bonk: 1d12 + 3 damage.\r\n\r\nBurn: 1d4 Fire damage to all enemies."
+        },
+        {
+            "Name": "Cave Driller",
+            "Description": "A robotic tank with a drill that can dig in the earth.",
+            "HP": "9",
+            "Armor": "3",
+            "Immunity": "Earth",
+            "Locations": "Cave, Mountain",
+            "Weakness": "Water",
+            "Type": "Robotic",
+            "Attacks": "Drill: 1d6+3 damage.\r\n\r\nSound Blast: 1d10-1 damage.  Causes Mania."
+        },
+        {
+            "Name": "Cave Tortoise`",
+            "Description": "A brown tortoise with spikes on its back",
+            "HP": "3",
+            "Armor": "4",
+            "Immunity": "Earth",
+            "Locations": "Cave, Mountain",
+            "Weakness": "Air, Water",
+            "Type": "Animal, Reptilian",
+            "Attacks": "Bite: 1d12 Earth damage.\r\n\r\nSpike Shot: 1d6+1 Earth damage to all enemies.  Causes Bleed."
+        },
+        {
+            "Name": "Cave Troll",
+            "Description": "A troll that lives in a cave.",
+            "HP": "11",
+            "Armor": "3",
+            "Immunity": "Earth",
+            "Locations": "Cave",
+            "Weakness": "Water",
+            "Type": "Monster",
+            "Attacks": "Smash: 1d8+5 damage.\r\n\r\nFrightening Stance: Causes Scared."
+        },
+        {
+            "Name": "Clay Pidgeon",
+            "Description": "A pidgeon made of clay.",
+            "HP": "8",
+            "Armor": "2",
+            "Immunity": "Earth, Air",
+            "Locations": "Sky, Plains",
+            "Weakness": "Water",
+            "Type": "Animal",
+            "Attacks": "Birdstrike: 1d6 damage.  Causes Scared."
+        },
+        {
+            "Name": "Crystal Ninja",
+            "Description": "A crystalline person with martial arts skills",
+            "HP": "8",
+            "Armor": "3",
+            "Immunity": "Holy",
+            "Locations": "Swamp, Shore, City",
+            "Weakness": "Dark",
+            "Type": "Human",
+            "Attacks": "Sharp Punch: 1d10-1 damage.  Causes Bleed."
+        },
+        {
+            "Name": "Crystal Squid",
+            "Description": "A squid that can swim",
+            "HP": "13",
+            "Armor": "1",
+            "Immunity": "Water",
+            "Locations": "Underwater, Shore",
+            "Weakness": "Lightning",
+            "Type": "Animal",
+            "Attacks": "Snap: 1d10 damage to a single player\r\n\r\nEmbrace: 1d4 damage.  Traps the player who must make a move to escape\r\n\r\nWater Jet: 1d10 damage to all players"
+        },
+        {
+            "Name": "Dark Wolf",
+            "Description": "A tall wolf with charcoal-like skin",
+            "HP": "9",
+            "Armor": "0",
+            "Immunity": "Dark",
+            "Locations": "Cave, Forest",
+            "Weakness": "Holy",
+            "Type": "Animal",
+            "Attacks": "Bite: 1d10 damage"
+        },
+        {
+            "Name": "Desert Rhino",
+            "Description": "A yellow rhino that inhabits the desert",
+            "HP": "16",
+            "Armor": "2",
+            "Immunity": "Earth",
+            "Locations": "Desert",
+            "Weakness": "Air",
+            "Type": "Animal",
+            "Attacks": "Trample: 1d8+1 damage to all enemies.\r\n\r\nGlare: 1d6+1 dark damage."
+        },
+        {
+            "Name": "Devil Snake",
+            "Description": "A giant snake with a pair of horns",
+            "HP": "21",
+            "Armor": "1",
+            "Immunity": "Water, Dark",
+            "Locations": "Underwater, Swamp",
+            "Weakness": "Holy",
+            "Type": "Reptilian",
+            "Attacks": "Snakebite: 1d4 Piercing damage.  Causes Poison."
+        },
+        {
+            "Name": "Dryad",
+            "Description": "A humanoid guardian of the forest with a treelike body.",
+            "HP": "10",
+            "Armor": "2",
+            "Immunity": "Holy",
+            "Locations": "Forest",
+            "Weakness": "Dark",
+            "Type": "Monster",
+            "Attacks": "Smack: 1d6 damage."
+        },
+        {
+            "Name": "Eagle Flock",
+            "Description": "A group of eagles",
+            "HP": "8",
+            "Armor": "0",
+            "Immunity": "Air",
+            "Locations": "Sky, Forest, Mountain, Plains, Desert",
+            "Weakness": "Earth",
+            "Type": "Animal, Mob",
+            "Attacks": "Manic Screech: A screech that causes Mania.\r\n\r\nPeck: 1d12-1 damage."
+        },
+        {
+            "Name": "Electric Eel",
+            "Description": "An underwater creature that shoots electricity",
+            "HP": "9",
+            "Armor": "0",
+            "Immunity": "None",
+            "Locations": "Underwater",
+            "Weakness": "None",
+            "Type": "Animal",
+            "Attacks": "Bite: 1d10 damage\r\n\r\nShock: 1d8 Lightning damage to all enemies.  Causes Paralysis."
+        },
+        {
+            "Name": "Experiment",
+            "Description": "A person that has been experimented on and no longer looks human.  Arms have been replaced with guns",
+            "HP": "9",
+            "Armor": "0",
+            "Immunity": "None",
+            "Locations": "Swamp, Cave, City",
+            "Weakness": "None",
+            "Type": "Monster, Human",
+            "Attacks": "Manic Shot: 1d8 -1 damage.  Causes mania"
+        },
+        {
+            "Name": "Fairies",
+            "Description": "A group of tiny humanoids with wings.",
+            "HP": "13",
+            "Armor": "0",
+            "Immunity": "Holy",
+            "Locations": "Sky",
+            "Weakness": "Dark",
+            "Type": "Monster, Mob",
+            "Attacks": "Blind Swarm: 1d4 causes Blind"
+        },
+        {
+            "Name": "Fire Scorpion",
+            "Description": "A big scorpion that has does fire damage",
+            "HP": "14",
+            "Armor": "7",
+            "Immunity": "Fire",
+            "Locations": "Desert",
+            "Weakness": "Ice",
+            "Type": "Animal, Insect",
+            "Attacks": "Sting: 1d12 fire damage.  Causes burn.\r\n\r\nPinch: 1d4.  Traps the player who must make a move to escape."
+        },
+        {
+            "Name": "Fire Spirit",
+            "Description": "An undead creature that flies and is made of fire",
+            "HP": "17",
+            "Armor": "1",
+            "Immunity": "Air, Fire",
+            "Locations": "Sky",
+            "Weakness": "Dark",
+            "Type": "Undead",
+            "Attacks": "Fireball: 1d10 - 1 Fire damage.  Causes Burn."
+        },
+        {
+            "Name": "Fireflies",
+            "Description": "A swarm of burning bugs",
+            "HP": "9",
+            "Armor": "1",
+            "Immunity": "Fire",
+            "Locations": "Sky, Swamp",
+            "Weakness": "Water",
+            "Type": "Insect, Mob",
+            "Attacks": "Burn: 1d6 Fire damage.\r\n\r\nSting: 1d10-3 damage.  Causes Paralysis."
+        },
+        {
+            "Name": "Flameknight",
+            "Description": "A person in an armor that's on fire",
+            "HP": "4",
+            "Armor": "4",
+            "Immunity": "Fire",
+            "Locations": "City, Plains, Forest",
+            "Weakness": "Ice, Water",
+            "Type": "Human",
+            "Attacks": "Fire Punch: 1d8 Fire damage."
+        },
+        {
+            "Name": "Flying Drone",
+            "Description": "A robot in the air that can shoot an enemy",
+            "HP": "10",
+            "Armor": "1",
+            "Immunity": "None",
+            "Locations": "Sky, City",
+            "Weakness": "Lightning",
+            "Type": "Robotic",
+            "Attacks": "Laser Shot: 1d6 damage"
+        },
+        {
+            "Name": "Frog Lancer",
+            "Description": "A humanoid frog carrying a lance",
+            "HP": "8",
+            "Armor": "3",
+            "Immunity": "Dark, Water",
+            "Locations": "Swamp, Cave, Forest",
+            "Weakness": "Lightning",
+            "Type": "Reptilian",
+            "Attacks": "Stab: 1d10 damage."
+        },
+        {
+            "Name": "Frost Ghoul",
+            "Description": "An undead creature that travels in snow",
+            "HP": "10",
+            "Armor": "3",
+            "Immunity": "Earth, Ice",
+            "Locations": "Tundra, Mountain",
+            "Weakness": "Holy",
+            "Type": "Undead",
+            "Attacks": "Manic Punch: 1d4+1 damage.  Causes Mania."
+        },
+        {
+            "Name": "Frostflies",
+            "Description": "A swarm of white flyings bug found in cold areas",
+            "HP": "17",
+            "Armor": "3",
+            "Immunity": "Air",
+            "Locations": "Tundra",
+            "Weakness": "Fire",
+            "Type": "Insect, Mob",
+            "Attacks": "Ghastly Swarm: 1d8+1 damage.  Causes scared.\r\n\r\nFrost Bite: 1d4 Ice damage."
+        },
+        {
+            "Name": "Ghost",
+            "Description": "The ghost of a person who has died. ",
+            "HP": "7",
+            "Armor": "0",
+            "Immunity": "Ice",
+            "Locations": "Swamp, City",
+            "Weakness": "None",
+            "Type": "Undead",
+            "Attacks": "Fright Swipe: 1d8+1 damage.  Causes Scared."
+        },
+        {
+            "Name": "Giant Weasel",
+            "Description": "A giant weasel",
+            "HP": "11",
+            "Armor": "0",
+            "Immunity": "None",
+            "Locations": "Forest, Plains",
+            "Weakness": "None",
+            "Type": "Animal",
+            "Attacks": "Attack: 1d6 damage"
+        },
+        {
+            "Name": "Gunner Soldier",
+            "Description": "A soldier with a gun",
+            "HP": "7",
+            "Armor": "4",
+            "Locations": "City",
+            "Weakness": "None",
+            "Type": "Human",
+            "Attacks": "Gunshot: 1d10 damage to an enemy\r\n\r\nGun Spray: 1d4 damage to all enemies"
+        },
+        {
+            "Name": "Hammercat",
+            "Description": "A cat wielding a maul",
+            "HP": "10",
+            "Armor": "0",
+            "Immunity": "None",
+            "Locations": "Forest, Plains",
+            "Weakness": "None",
+            "Type": "Monster, Animal",
+            "Attacks": "Blinding Bite: 1d4+1 damage.  Causes blind.\r\n\r\nSmash: 1d10+2 damage."
+        },
+        {
+            "Name": "Hornet Swarm",
+            "Description": "A swarm of stinging hornets",
+            "HP": "5",
+            "Armor": "0",
+            "Immunity": "None",
+            "Locations": "Forest, Plains, Desert",
+            "Weakness": "Fire",
+            "Type": "Animal, Insect, Mob",
+            "Attacks": "Venomous Sting: 1d4+1 damage to all enemies.  Causes Poison."
+        },
+        {
+            "Name": "Ice Knight",
+            "Description": "A person in white armor in the snow.",
+            "HP": "13",
+            "Armor": "5",
+            "Immunity": "Ice",
+            "Locations": "Mountain, Tundra",
+            "Weakness": "Fire",
+            "Type": "Human",
+            "Attacks": "Attack: 1d6+1 damage.\r\n\r\nIce Blast: 1d6-1 Ice damage."
+        },
+        {
+            "Name": "Ice Phantom",
+            "Description": "A ghastly apparition made of pure ice",
+            "HP": "10",
+            "Armor": "3",
+            "Immunity": "Holy, Ice",
+            "Locations": "Tundra",
+            "Weakness": "Fire",
+            "Type": "Undead",
+            "Attacks": "Frost Breath: 1d4 Ice damage."
+        },
+        {
+            "Name": "Ice Zombie",
+            "Description": "An undead that loves the cold",
+            "HP": "6",
+            "Armor": "0",
+            "Immunity": "Ice",
+            "Locations": "Tundra",
+            "Weakness": "Holy",
+            "Type": "Undead",
+            "Attacks": "Bite: 1d10 damage.  Causes Mania."
+        },
+        {
+            "Name": "Inker",
+            "Description": "A creature with six tentacles and human legs.",
+            "HP": "15",
+            "Armor": "4",
+            "Immunity": "Holy, Air, Water",
+            "Locations": "Underwater, Swamp, Shore",
+            "Weakness": "Earth",
+            "Type": "Monster",
+            "Attacks": "Tentacle Attack: 1d12+3 damage to all enemies.  Causes Paralysis.\r\n\r\nWater Spray: 1d8 Water damage.  "
+        },
+        {
+            "Name": "Knifefish",
+            "Description": "A fish with a knife-like nose",
+            "HP": "5",
+            "Armor": "0",
+            "Immunity": "Dark",
+            "Locations": "Underwater",
+            "Weakness": "Ice",
+            "Type": "Animal",
+            "Attacks": "Cut: 1d4 damage.  Causes Bleed."
+        },
+        {
+            "Name": "Living Snow",
+            "Description": "A group of snowflakes that seem to be sentient",
+            "HP": "4",
+            "Armor": "1",
+            "Immunity": "Ice",
+            "Locations": "Tundra, Mountain",
+            "Weakness": "Earth",
+            "Type": "Monster, Mob",
+            "Attacks": "Strike Fear: 1d4-1 damage.  Causes Scared.\r\n\r\nPelt Ice: 1d10 Ice damage."
+        },
+        {
+            "Name": "Lizard Samurai",
+            "Description": "An lizard creature with a katana",
+            "HP": "10",
+            "Armor": "1",
+            "Immunity": "Earth",
+            "Locations": "Plains, Cave, Mountain, Forest",
+            "Weakness": "Air",
+            "Type": "Monster, Reptilian",
+            "Attacks": "Slash: 1d8 damage.  Causes Bleed.\r\n\r\nBite: 1d10-1 damage. "
+        },
+        {
+            "Name": "Madbot",
+            "Description": "A flying robot with a helicopter propeller and crazy eyes.",
+            "HP": "12",
+            "Armor": "2",
+            "Immunity": "Lightning",
+            "Locations": "City, Sky",
+            "Weakness": "Earth",
+            "Type": "Robotic",
+            "Attacks": "Crazy Attack: 1d6+2 damage.  Causes Mania."
+        },
+        {
+            "Name": "Magmus",
+            "Description": "A humanoid creature made of lava rock",
+            "HP": "7",
+            "Armor": "2",
+            "Immunity": "Fire",
+            "Locations": "Cave, Mountain",
+            "Weakness": "Ice",
+            "Type": "Monster",
+            "Attacks": "Fire Punch: 1d8 Fire damage."
+        },
+        {
+            "Name": "Marionette",
+            "Description": "A marionette.  A puppet on strings.",
+            "HP": "6",
+            "Armor": "0",
+            "Immunity": "None",
+            "Locations": "City",
+            "Weakness": "Fire",
+            "Type": "Monster",
+            "Attacks": "Slap: 1d8 damage"
+        },
+        {
+            "Name": "Mollusk",
+            "Description": "A creature with an oyster-like body, lobster legs, and pincers",
+            "HP": "3",
+            "Armor": "4",
+            "Immunity": "Water",
+            "Locations": "Shore, Underwater",
+            "Weakness": "Lightning",
+            "Type": "Animal",
+            "Attacks": "Clamp: 1d8+1 damage"
+        },
+        {
+            "Name": "Mud Monster",
+            "Description": "An amorphous monster made of mud.",
+            "HP": "7",
+            "Armor": "1",
+            "Immunity": "Earth",
+            "Locations": "Swamp, Mountain, Cave, Plains",
+            "Weakness": "Air",
+            "Type": "Monster",
+            "Attacks": "Mud Punch: 1d6 damage.  Causes Blind"
+        },
+        {
+            "Name": "Murder Wasps",
+            "Description": "A swarm of wasps",
+            "HP": "6",
+            "Armor": "0",
+            "Immunity": "Air",
+            "Locations": "Sky, Swamp, Plains",
+            "Weakness": "Ice, Holy, Dark",
+            "Type": "Mob, Insect",
+            "Attacks": "Sting: 1d8 Piercing damage.  Causes Poison"
+        },
+        {
+            "Name": "Muskroom",
+            "Description": "A muskrat covered in mushrooms",
+            "HP": "3",
+            "Armor": "0",
+            "Immunity": "None",
+            "Locations": "Cave, Forest",
+            "Weakness": "Fire",
+            "Type": "Animal",
+            "Attacks": "Scratch: 1d4+3 damage\r\n\r\nBite: 1d4 damage.  Causes Poison.\r\n\r\nSpore Cloud: Cause Poison on all enemies"
+        },
+        {
+            "Name": "Pirate's Ghost",
+            "Description": "A ghastly apparition that looks like a pirate and wields a poisonous blade",
+            "HP": "16",
+            "Armor": "0",
+            "Immunity": "Fire, Water",
+            "Locations": "Underwater, Shore",
+            "Weakness": "Earth",
+            "Type": "Undead",
+            "Attacks": "Poison Strike: 1d10-1 damage.  Causes poison."
+        },
+        {
+            "Name": "Psycho Borealis",
+            "Description": "An ethereal creature made of an array of lights",
+            "HP": "9",
+            "Armor": "0",
+            "Immunity": "Holy",
+            "Locations": "Tundra",
+            "Weakness": "Dark",
+            "Type": "Monster",
+            "Attacks": "Manic Attack: 1d6-1 Holy damage.  Causes Mania.\r\n\r\nFright Attack: 1d6-1 Holy damage.  Causes Scared."
+        },
+        {
+            "Name": "Pyro",
+            "Description": "A tribal magic user that manipulates fire.",
+            "HP": "16",
+            "Armor": "3",
+            "Immunity": "Fire",
+            "Locations": "Desert, Forest, Mountain",
+            "Weakness": "Holy",
+            "Type": "Human",
+            "Attacks": "Fireball: 1d8 fire damage.  Causes Burn."
+        },
+        {
+            "Name": "Ring of Fire",
+            "Description": "A literal floating circle of fire",
+            "HP": "7",
+            "Armor": "0",
+            "Immunity": "Fire",
+            "Locations": "Cave, Mountain",
+            "Weakness": "Ice",
+            "Type": "Monster",
+            "Attacks": "Fireball: 1d8 fire damage.  Causes Burn."
+        },
+        {
+            "Name": "Ring of Lightning",
+            "Description": "A literal floating circle of electricity",
+            "HP": "7",
+            "Armor": "0",
+            "Immunity": "Lightning",
+            "Locations": "Cave, Mountain",
+            "Weakness": "Water",
+            "Type": "Monster",
+            "Attacks": "Lightning Strike: 1d8 Lightning damage.  Causes Paralysis."
+        },
+        {
+            "Name": "Rock Beast",
+            "Description": "A humanoid creature made of dirt and rock",
+            "HP": "17",
+            "Armor": "3",
+            "Immunity": "Earth",
+            "Locations": "Plains, Cave, Mountain",
+            "Weakness": "Air",
+            "Type": "Monster",
+            "Attacks": "Rock Punch: 1d10 Earth damage\r\n\r\nGrab: Entrap an enemy"
+        },
+        {
+            "Name": "Sand Crusader",
+            "Description": "A warrior dressed in robes carrying a staff",
+            "HP": "19",
+            "Armor": "0",
+            "Immunity": "Holy",
+            "Locations": "Desert",
+            "Weakness": "Dark",
+            "Type": "Human",
+            "Attacks": "Holy Strike: 1d6 Holy damage\r\n\r\nBlinding Light: 1d10 -2 Holy damage.  Causes Blind"
+        },
+        {
+            "Name": "Sand Shredder",
+            "Description": "A robot that guards the sands with its sawblades.",
+            "HP": "14",
+            "Armor": "1",
+            "Immunity": "Lightning",
+            "Locations": "Shore, Desert",
+            "Weakness": "Earth",
+            "Type": "Robotic",
+            "Attacks": "Sawblades: 1d8+1 damage.  Causes Bleed."
+        },
+        {
+            "Name": "Sandblade",
+            "Description": "A desert-dweller that's good with a knife",
+            "HP": "11",
+            "Armor": "1",
+            "Immunity": "Dark",
+            "Locations": "Desert",
+            "Weakness": "Water",
+            "Type": "Human",
+            "Attacks": "Cut: 1d4 damage.  Causes Bleed."
+        },
+        {
+            "Name": "Sandbot",
+            "Description": "A multi-legged robot that walks on sand.",
+            "HP": "17",
+            "Armor": "5",
+            "Immunity": "Lightning",
+            "Locations": "Shore, Desert",
+            "Weakness": "None",
+            "Type": "Robotic",
+            "Attacks": "Shadowbeam: 1d6+1 dark damage."
+        },
+        {
+            "Name": "Sawbot",
+            "Description": "A robot with buzzsaw for hands",
+            "HP": "8",
+            "Armor": "2",
+            "Immunity": "None",
+            "Locations": "City, Forest",
+            "Weakness": "Lightning",
+            "Type": "Robotic",
+            "Attacks": "Shred: 1d12 - 1 damage.  Causes Bleed."
+        },
+        {
+            "Name": "Scorch-pion",
+            "Description": "A robotic scorpion with fiery, poisonout tail.",
+            "HP": "20",
+            "Armor": "1",
+            "Immunity": "Ice",
+            "Locations": "Desert",
+            "Weakness": "Holy",
+            "Type": "Robotic",
+            "Attacks": "Sting: 1d6 Fire damage.  Causes Poison."
+        },
+        {
+            "Name": "Serpent",
+            "Description": "A giant poisonous snake.",
+            "HP": "16",
+            "Armor": "1",
+            "Immunity": "Dark",
+            "Locations": "Underwater, Swamp, Plains",
+            "Weakness": "None",
+            "Type": "Reptilian",
+            "Attacks": "Bite: 1d4 damage.  Causes Poison."
+        },
+        {
+            "Name": "Shard Swarm",
+            "Description": "Flying intelligent pieces of glass",
+            "HP": "12",
+            "Armor": "0",
+            "Immunity": "Lightning",
+            "Locations": "Desert, Shore",
+            "Weakness": "Water",
+            "Type": "Monster, Mob",
+            "Attacks": "Multi-Attack: 1d6-1 damage.  Causes Bleed.\r\n\r\nMirror: Take a turn to cast Mirror.  The next time the Shard Swarm is attack, whoever attacks will get the same damage."
+        },
+        {
+            "Name": "Skeleton Knight",
+            "Description": "A skeleton in armor with a sword",
+            "HP": "5",
+            "Armor": "4",
+            "Immunity": "Dark",
+            "Locations": "Cave, Swamp",
+            "Weakness": "Holy",
+            "Type": "Monster, Undead",
+            "Attacks": "Slash: 1d8 damage"
+        },
+        {
+            "Name": "Snow Vixen",
+            "Description": "A giant white fox",
+            "HP": "11",
+            "Armor": "0",
+            "Immunity": "Ice",
+            "Locations": "Tundra, Forest",
+            "Weakness": "Fire",
+            "Type": "Animal",
+            "Attacks": "Bite: 1d10 damage\r\n\r\nScratch: 1d6 damage\r\n\r\nSnow Beam: 1d10 Ice damage"
+        },
+        {
+            "Name": "Snowbug",
+            "Description": "A large insectoid ice creature",
+            "HP": "6",
+            "Armor": "3",
+            "Immunity": "Ice",
+            "Locations": "Tundra",
+            "Weakness": "None",
+            "Type": "Insect",
+            "Attacks": "Bite: 1d10 damage.\r\n\r\nShowshot: 1d6+1 Ice damage."
+        },
+        {
+            "Name": "Spiderbot",
+            "Description": "A robotic spider with a cannon up top",
+            "HP": "4",
+            "Armor": "5",
+            "Immunity": "None",
+            "Locations": "City, Cave",
+            "Weakness": "None",
+            "Type": "Robotic, Insect",
+            "Attacks": "Laser Shot: 1d6 damage"
+        },
+        {
+            "Name": "Stonewall",
+            "Description": "A literal living wall of stone",
+            "HP": "11",
+            "Armor": "6",
+            "Immunity": "Holy",
+            "Locations": "City",
+            "Weakness": "Air",
+            "Type": "Monster",
+            "Attacks": "Blockhead: 1d12 damage.  Causes Paralysis."
+        },
+        {
+            "Name": "Sun Fighter",
+            "Description": "A living sun with fists",
+            "HP": "11",
+            "Armor": "0",
+            "Immunity": "Fire",
+            "Locations": "Sky",
+            "Weakness": "Ice, Earth",
+            "Type": "Monster",
+            "Attacks": "Fire Slap: 1d6 Fire damage.\r\n\r\nSunbeam: 1d8-1 damage.  Causes Blind."
+        },
+        {
+            "Name": "Swarm of Mosquitos",
+            "Description": "A swarm of mosquitos",
+            "HP": "9",
+            "Armor": "0",
+            "Immunity": "None",
+            "Locations": "Air, Swamp, Forest, Cave",
+            "Weakness": "None",
+            "Type": "Mob, Insect",
+            "Attacks": "Swarm of Bites: 1d12+1 damage.  Causes Paralysis."
+        },
+        {
+            "Name": "Thunder Bird",
+            "Description": "A yellow bird emanating electricity",
+            "HP": "8",
+            "Armor": "0",
+            "Immunity": "Air, Lightning",
+            "Locations": "Sky, Desert, Tundra",
+            "Weakness": "Water",
+            "Type": "Animal",
+            "Attacks": "Claws: 1d6-1 damage.  Causes Scared.\r\n\r\nLightning Strike: 1d10 Lightning damage."
+        },
+        {
+            "Name": "Thunder Bugs",
+            "Description": "A swarm of flying bugs that burst with electricity.",
+            "HP": "22",
+            "Armor": "1",
+            "Immunity": "Lightning",
+            "Locations": "Tundra, Plains",
+            "Weakness": "Ice",
+            "Type": "Mob, Insect",
+            "Attacks": "Electric Bite: 1d4+1 Lightning damage.  Causes Mania."
+        },
+        {
+            "Name": "Thunder Wraith",
+            "Description": "An undead creature with lightning power",
+            "HP": "8",
+            "Armor": "3",
+            "Immunity": "Dark, Lightning",
+            "Locations": "Shore, Desert",
+            "Weakness": "Ice",
+            "Type": "Undead",
+            "Attacks": "Burning Shock: Blast of electricity that does 1d10 Lightning damage.  Causes Burn."
+        },
+        {
+            "Name": "Thunderclapper",
+            "Description": "Flying robotic hands that are electrically charged",
+            "HP": "1",
+            "Armor": "3",
+            "Immunity": "Lightning",
+            "Locations": "Sky",
+            "Weakness": "None",
+            "Type": "Robotic",
+            "Attacks": "Electric Slap: 1d10+1 Lightning damage."
+        },
+        {
+            "Name": "Tortussle",
+            "Description": "A giant tortoise with glowing eyes",
+            "HP": "18",
+            "Armor": "2",
+            "Immunity": "Water",
+            "Locations": "Underwater, Shore, Swamp, Forest, Plains",
+            "Weakness": "Lightning",
+            "Type": "Animal, Reptilian",
+            "Attacks": "Bite: 1d12+2 damage\r\n\r\n"
+        },
+        {
+            "Name": "Wakebot",
+            "Description": "A small robot that rides the coastline.",
+            "HP": "6",
+            "Armor": "1",
+            "Immunity": "Lightning",
+            "Locations": "Shore",
+            "Weakness": "Dark",
+            "Type": "Robotic",
+            "Attacks": "Lightning Strike: 1d8 Lightning damage.  Causes Paralysis."
+        },
+        {
+            "Name": "Walking Shark",
+            "Description": "A shark on two legs",
+            "HP": "9",
+            "Armor": "0",
+            "Immunity": "Water",
+            "Locations": "Shore",
+            "Weakness": "Lightning",
+            "Type": "Monster, Animal",
+            "Attacks": "Bite: 1d10 damage.  Once bitten, 3 damage every turn until the enemy escapes."
+        },
+        {
+            "Name": "Waterbone",
+            "Description": "A skeleton inside a bubble of water",
+            "HP": "9",
+            "Armor": "1",
+            "Immunity": "Water",
+            "Locations": "Underwater",
+            "Weakness": "Holy, Lightning",
+            "Type": "Undead",
+            "Attacks": "Bubble Attack: 1d10 Water damage\r\n\r\nBone Attack: 1d12 Dark damage."
+        },
+        {
+            "Name": "White Asp",
+            "Description": "A snake that lives in the snow",
+            "HP": "7",
+            "Armor": "0",
+            "Immunity": "Holy, Ice",
+            "Locations": "Tundra",
+            "Weakness": "Fire",
+            "Type": "Reptilian",
+            "Attacks": "Frost Bite: 1d4 Ice damage.  Causes Scared."
+        },
+        {
+            "Name": "Yellow Dragon",
+            "Description": "A dragon with yellow scales",
+            "HP": "19",
+            "Armor": "4",
+            "Immunity": "Air",
+            "Locations": "Sky, Mountain",
+            "Weakness": "Earth",
+            "Type": "Animal, Reptilian",
+            "Attacks": "Wind Blast: 1d10 Air damage\r\n\r\nScratch: 1d8 - 1 Piercing damage"
+        },
+        {
+            "Name": "Paralyzer",
+            "Description": "A human imbued in darkness that paralyzes their enemies.",
+            "HP": "10",
+            "Armor": "0",
+            "Immunity": "Dark",
+            "Locations": "City",
+            "Weakness": "Ice",
+            "Type": "Human",
+            "Attacks": "Paralyze Punch: 1d12+2 damage.  Causes Paralysis"
+        },
+        {
+            "Name": "Snow Drake",
+            "Description": "A white dragon that lives in the snowy parts of the world.",
+            "HP": "19",
+            "Armor": "0",
+            "Immunity": "Dark, Ice",
+            "Locations": "Tundra",
+            "Weakness": "Fire",
+            "Type": "Reptilian",
+            "Attacks": "Frost Beam: 1d12 Ice damage.  Causes Paralysis."
+        },
+        {
+            "Name": "Sand Spirit",
+            "Description": "A spirit made of Sand.",
+            "HP": "10",
+            "Armor": "5",
+            "Immunity": "Earth",
+            "Locations": "Shore, Desert",
+            "Weakness": "Dark",
+            "Type": "Undead",
+            "Attacks": "Burning Sands: 1d6+1 Earth damage.  Causes Burn."
+        },
+        {
+            "Name": "Butter Fry",
+            "Description": "An electrified giant butterfly.",
+            "HP": "15",
+            "Armor": "2",
+            "Immunity": "Air, Fire",
+            "Locations": "Sky, Mountain",
+            "Weakness": "Earth",
+            "Type": "Insect",
+            "Attacks": "Wind Blast: 1d10 Air damage\r\n\r\nFire Blast: 1d10 Fire damage"
+        },
+        {
+            "Name": "Merknight",
+            "Description": "An armored merperson bearing a sword",
+            "HP": "7",
+            "Armor": "2",
+            "Immunity": "Holy",
+            "Locations": "Underwater",
+            "Weakness": "Lightning",
+            "Type": "Human, Monster, Animal",
+            "Attacks": "Slice: 1d4+1 damage."
+        }
+    ],
+    "Sample_Custom_Moves": [
+        {
+            "Name": "Big Ears",
+            "Description": "+2 to Sense roll when listening to others' conversations"
+        },
+        {
+            "Name": "Brawler",
+            "Description": "+2 to Melee when fighting one-on-one"
+        },
+        {
+            "Name": "Call of the Wild",
+            "Description": "Spend 1 SP to summon a Wolf to your side if in a forest.  Wolf has 4 HP and can do 1d6 damage and has its own turn during combat."
+        },
+        {
+            "Name": "Cavern Explorer",
+            "Description": "+2 to Sense roll when inside a cave or cavern"
+        },
+        {
+            "Name": "Chef",
+            "Description": "+2 to Tinker for creating a delicious meal that will restore 1d4 HP or SP"
+        },
+        {
+            "Name": "Detective",
+            "Description": "+2 to Search when investigating a crime"
+        },
+        {
+            "Name": "Good Shepherd",
+            "Description": "+2 to Sense when attempting to wrangle a plant-eating animal"
+        },
+        {
+            "Name": "Informed Traveller",
+            "Description": "+2 to Knowledge roll for information about a city/town you haven't been to before"
+        },
+        {
+            "Name": "King Speech",
+            "Description": "+2 to Diplomacy when speaking to rulers of nations"
+        },
+        {
+            "Name": "Mountain Climber",
+            "Description": "+2 to Brawn roll for climbing mountains"
+        },
+        {
+            "Name": "Prosecutor",
+            "Description": "+2 to Diplomacy when you try to convince others that someone is lying (whether it's true or not)"
+        },
+        {
+            "Name": "Forest Dweller",
+            "Description": "+2 to Sense in a forest"
+        },
+        {
+            "Name": "Natural Athlete",
+            "Description": "+2 to Brawn when competing in an athletic event"
+        },
+        {
+            "Name": "Entomologist",
+            "Description": "+2 to Search when searching for bugs"
+        },
+        {
+            "Name": "Tundra Explorer",
+            "Description": "+2 to Search when in cold climates"
+        },
+        {
+            "Name": "Executioner",
+            "Description": "+2 to Melee when intending to kill an enemy"
+        },
+        {
+            "Name": "Bard",
+            "Description": "+2 to Diplomacy when doing an acting or musical performance"
+        }
+    ],
+    "Enemy Data": [
+        {
+            "Elementals": "Earth",
+            "Immunity": "11",
+            "Weaknesses": "10",
+            "Status Effects": "Bleed",
+            "undefined": "3",
+            "Attack Element": "Piercing"
+        },
+        {
+            "Elementals": "Air",
+            "Immunity": "11",
+            "Weaknesses": "10",
+            "Status Effects": "Blind",
+            "undefined": "5",
+            "Attack Element": "Earth"
+        },
+        {
+            "Elementals": "Fire",
+            "Immunity": "11",
+            "Weaknesses": "11",
+            "Status Effects": "Burn",
+            "undefined": "2",
+            "Attack Element": "Air"
+        },
+        {
+            "Elementals": "Water",
+            "Immunity": "11",
+            "Weaknesses": "10",
+            "Status Effects": "Mania",
+            "undefined": "15",
+            "Attack Element": "Fire"
+        },
+        {
+            "Elementals": "Lightning",
+            "Immunity": "10",
+            "Weaknesses": "10",
+            "Status Effects": "Paralysis",
+            "undefined": "6",
+            "Attack Element": "Water"
+        },
+        {
+            "Elementals": "Ice",
+            "Immunity": "12",
+            "Weaknesses": "10",
+            "Status Effects": "Poison",
+            "undefined": "10",
+            "Attack Element": "Lightning"
+        },
+        {
+            "Elementals": "Holy",
+            "Immunity": "11",
+            "Weaknesses": "10",
+            "Status Effects": "Scared",
+            "undefined": "11",
+            "Attack Element": "Ice"
+        },
+        {
+            "Elementals": "Dark",
+            "Immunity": "11",
+            "Weaknesses": "10",
+            "Attack Element": "Holy",
+            "undefined": "Bleed,Blind,Mania,Scared,"
+        },
+        {
+            "Attack Element": "Dark",
+            "undefined": "1"
+        },
+        {
+            "Elementals": "Locations",
+            "Status Effects": "Type"
+        },
+        {
+            "Elementals": "Cave",
+            "Immunity": "18",
+            "Status Effects": "Animal",
+            "undefined": "23"
+        },
+        {
+            "Elementals": "Sky",
+            "Immunity": "14",
+            "Status Effects": "Human",
+            "undefined": "12"
+        },
+        {
+            "Elementals": "Mountain",
+            "Immunity": "16",
+            "Status Effects": "Monster",
+            "undefined": "Next Enemy"
+        },
+        {
+            "Elementals": "Swamp",
+            "Immunity": "14",
+            "Status Effects": "Robotic",
+            "undefined": "10"
+        },
+        {
+            "Elementals": "Forest",
+            "Immunity": "15",
+            "Status Effects": "Reptilian",
+            "undefined": "10"
+        },
+        {
+            "Elementals": "Underwater",
+            "Immunity": "14",
+            "Status Effects": "Insect",
+            "undefined": "8"
+        },
+        {
+            "Elementals": "Shore",
+            "Immunity": "14",
+            "Status Effects": "Mob",
+            "undefined": "14"
+        },
+        {
+            "Elementals": "Plains",
+            "Immunity": "14",
+            "Status Effects": "Undead",
+            "undefined": "10"
+        },
+        {
+            "Elementals": "Desert",
+            "Immunity": "15",
+            "undefined": "1"
+        },
+        {
+            "Elementals": "Tundra",
+            "Immunity": "14"
+        },
+        {
+            "Elementals": "City",
+            "Immunity": "14"
+        }
+    ]
+}
