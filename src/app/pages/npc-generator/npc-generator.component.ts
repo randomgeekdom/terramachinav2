@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { NPC, Gender } from '@randomgeekdom/rollbard';
+import { RollbardService } from '@services/rollbard.service';
 
 @Component({
   selector: 'app-npc-generator',
@@ -6,10 +8,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./npc-generator.component.scss']
 })
 export class NpcGeneratorComponent implements OnInit {
+  public NPC: NPC;
 
-  constructor() { }
+  constructor(private rollbardService: RollbardService) { }
 
   ngOnInit(): void {
   }
 
+  get GenderText(){
+    return !this.NPC? "" : Gender[this.NPC.Gender];
+  }
+
+  GenerateNPC(){
+    this.NPC = this.rollbardService.npcGenerator.Generate();
+  }
 }
