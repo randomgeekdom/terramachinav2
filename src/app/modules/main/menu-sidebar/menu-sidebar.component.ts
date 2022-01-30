@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 import { Router } from '@angular/router';
 import {AppService} from '@services/app.service';
 
@@ -8,6 +8,7 @@ import {AppService} from '@services/app.service';
     styleUrls: ['./menu-sidebar.component.scss']
 })
 export class MenuSidebarComponent implements OnInit {
+    @Input() public sidebarMenuOpened = true;
     public user;
     public menu = MENU;
 

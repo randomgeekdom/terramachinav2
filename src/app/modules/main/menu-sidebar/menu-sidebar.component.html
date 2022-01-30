@@ -1,11 +1,7 @@
 <!-- Brand Logo -->
-<a [routerLink]="['/']" class="brand-link">
-    <img
-        src="assets/img/logo.png"
-        alt="Terra Machina Logo"
-        class="brand-image"
-    />
-    <br/>
+<a [routerLink]="['/']" class="brand-link" *ngIf="sidebarMenuOpened">
+    <img src="assets/img/logo.png" alt="Terra Machina Logo" class="brand-image" />
+    <br />
 </a>
 
 <!-- Sidebar -->
@@ -14,16 +10,8 @@
 
     <!-- Sidebar Menu -->
     <nav class="mt-2" style="overflow-y: hidden">
-        <ul
-            class="nav nav-pills nav-sidebar flex-column"
-            data-widget="treeview"
-            role="menu"
-            data-accordion="false"
-        >
-            <app-menu-item
-                *ngFor="let item of menu"
-                [menuItem]="item"
-            ></app-menu-item>
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+            <app-menu-item *ngFor="let item of menu" [menuItem]="item"></app-menu-item>
         </ul>
     </nav>
 </div>
