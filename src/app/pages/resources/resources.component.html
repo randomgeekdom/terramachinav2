@@ -1,0 +1,142 @@
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0 text-dark">Resources</h1>
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container-fluid -->
+</div>
+<!-- /.content-header -->
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h2 class="m-0 text-dark">Starting Documents</h2>
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container-fluid -->
+</div>
+
+<!-- Main content -->
+<section class="content">
+    <div class="container-fluid">
+        <!-- Small boxes (Stat box) -->
+        <div class="row">
+            <!-- ./col -->
+
+            <div class="col-lg-3 col-6">
+                <!-- small box -->
+                <div class="small-box bg-success">
+                    <div class="inner">
+                        <h2>Rulebook</h2>
+
+                        <p>The core rulebook.</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-book"></i>
+                    </div>
+                    <a
+                        href="../../../assets/Terra-Machina-Rulebook.pdf"
+                        class="small-box-footer"
+                        >Download <i class="fas fa-arrow-circle-down"></i
+                    ></a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-6">
+                <!-- small box -->
+                <div class="small-box bg-info">
+                    <div class="inner">
+                        <h2>Basic Character Sheet</h2>
+
+                        <p>
+                            Character sheet that all players use regardless of
+                            class.
+                        </p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-address-book"></i>
+                    </div>
+                    <a
+                        href="../../../assets/Basic_Character_Sheet.pdf"
+                        target="_blank"
+                        class="small-box-footer"
+                        >Download <i class="fas fa-arrow-circle-down"></i
+                    ></a>
+                </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-6">
+                <!-- small box -->
+                <div class="small-box bg-warning">
+                    <div class="inner">
+                        <h2>Custom Moves Sheet</h2>
+
+                        <p>
+                            Sheet for any custom moves that the GM or scenario
+                            gives to the player.
+                        </p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-bullseye"></i>
+                    </div>
+                    <a
+                        href="../../../assets/Custom_Moves_Sheet.pdf"
+                        target="_blank"
+                        class="small-box-footer"
+                        >Download <i class="fas fa-arrow-circle-down"></i
+                    ></a>
+                </div>
+            </div>
+            <!-- ./col -->
+        </div>
+        <!-- /.row -->
+
+
+        <div class="content-header">
+          <div class="container-fluid">
+              <div class="row mb-2">
+                  <div class="col-sm-6">
+                      <h2 class="m-0 text-dark">Class Sheets</h2>
+                  </div>
+              </div>
+              <!-- /.row -->
+          </div>
+          <!-- /.container-fluid -->
+      </div>
+        <div class="row">
+          <div class="col-md-5" *ngFor="let class of classes">
+              <!-- small box -->
+              <div class="small-box bg-secondary">
+                  <div class="inner">
+                      <h2>{{class.name}}</h2>
+
+                      <p>
+                        {{class.description}}
+                      </p>
+                  </div>
+                  <div class="icon">
+                      <i [class]="'fa fa-' + class.icon"></i>
+                  </div>
+                  <a
+                      [href]="'../../../assets/' + class.name + '.pdf'"
+                      target="_blank"
+                      class="small-box-footer"
+                      >Download <i class="fas fa-arrow-circle-down"></i
+                  ></a>
+              </div>
+          </div>
+
+
+
+        </div>
+
+    </div>
+    <!-- Main row -->
+</section>
+<!-- /.content -->

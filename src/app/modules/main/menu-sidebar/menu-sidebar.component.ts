@@ -20,17 +20,19 @@ export class MenuSidebarComponent implements OnInit {
 }
 
 export const MENU = [
+  {
+      name: 'Home',
+      path: ['/'],
+      icon: "home"
+  },
+  {
+      name: 'Resources',
+      path: ['/resources'],
+      icon: "book"
+  },
     {
-        name: 'Home',
-        path: ['/'],
-        icon: "home"
-    },
-    {
-        name: 'Blank',
-        path: ['/blank']
-    },
-    {
-        name: 'Main Menu',
+        name: 'Tools',
+        icon: 'wrench',
         children: [
             {
                 name: 'Sub Menu',

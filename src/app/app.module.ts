@@ -33,6 +33,7 @@ import {SubMenuComponent} from './pages/main-menu/sub-menu/sub-menu.component';
 import {MenuItemComponent} from './components/menu-item/menu-item.component';
 import {DropdownComponent} from './components/dropdown/dropdown.component';
 import {DropdownMenuComponent} from './components/dropdown/dropdown-menu/dropdown-menu.component';
+import { ResourcesComponent } from './pages/resources/resources.component';
 
 registerLocaleData(localeEn, 'en-EN');
 
@@ -61,7 +62,8 @@ registerLocaleData(localeEn, 'en-EN');
         MenuItemComponent,
         DropdownComponent,
         DropdownMenuComponent,
-        HomeComponent
+        HomeComponent,
+        ResourcesComponent
     ],
     imports: [
         BrowserModule,

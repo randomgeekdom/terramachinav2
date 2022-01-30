@@ -7,6 +7,7 @@ import {NonAuthGuard} from '@guards/non-auth.guard';
 import {PrivacyPolicyComponent} from '@modules/privacy-policy/privacy-policy.component';
 import {SubMenuComponent} from '@pages/main-menu/sub-menu/sub-menu.component';
 import { HomeComponent } from '@pages/home/home.component';
+import { ResourcesComponent } from '@pages/resources/resources.component';
 
 const routes: Routes = [
     {
@@ -34,6 +35,10 @@ const routes: Routes = [
             {
                 path: '',
                 component: HomeComponent
+            },
+            {
+                path: 'resources',
+                component: ResourcesComponent
             }
         ]
     },
